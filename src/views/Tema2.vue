@@ -16,7 +16,7 @@
             img(src='@/assets/curso/tema2/1.png', alt='')
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") PUn proyecto de investigación se distingue por surgir a partir de una situación problemática que requiere ser comprendida, explicada o transformada. El punto de partida es una pregunta de investigación, también llamada pregunta problematizadora, que orienta todo el proceso investigativo y marca la ruta metodológica a seguir. Esta pregunta debe ser abordada y respondida mediante un trabajo riguroso, planificado y coherente, que permita obtener nuevos conocimientos o soluciones relevantes.
+            p.mb-0(data-aos="fade-up") Un proyecto de investigación se distingue por surgir a partir de una situación problemática que requiere ser comprendida, explicada o transformada. El punto de partida es una pregunta de investigación, también llamada pregunta problematizadora, que orienta todo el proceso investigativo y marca la ruta metodológica a seguir. Esta pregunta debe ser abordada y respondida mediante un trabajo riguroso, planificado y coherente, que permita obtener nuevos conocimientos o soluciones relevantes.
     
     p.mb-5 La calidad y pertinencia de un proyecto de investigación dependen en gran medida de su planeación y del seguimiento de una serie de etapas definidas, cada una con acciones específicas que garantizan el desarrollo ordenado del proceso investigativo. A continuación, se presentan las etapas del proyecto de investigación y las acciones que las componen:
 
@@ -355,7 +355,7 @@
           img(src="@/assets/curso/tema2/24.svg", data-aos="zoom-in")
       .col-lg-9.order-lg-1
         .bg-color-3.px-4.py-5(data-aos="fade-left")
-          p.mb-0 Para redactar objetivos claros, coherentes y adecuados al nivel del estudio, es recomendable apoyarse en herramientas que orienten el uso preciso de los verbos. En este sentido, la Taxonomía de Bloom resulta especialmente útil, ya que clasifica los niveles del pensamiento cognitivo, desde los más básicos hasta los más complejos, y sugiere verbos alineados con cada uno. En el material complementario se encuentra disponible esta taxonomía, la cual puede consultarse para seleccionar los verbos más adecuados según el propósito de cada objetivo de investigación.
+          p.mb-0 Para redactar objetivos claros, coherentes y adecuados al nivel del estudio, es recomendable apoyarse en herramientas que orienten el uso preciso de los verbos. En este sentido, la taxonomía de Bloom resulta especialmente útil, ya que clasifica los niveles del pensamiento cognitivo, desde los más básicos hasta los más complejos, y sugiere verbos alineados con cada uno. En el material complementario se encuentra disponible esta taxonomía, la cual puede consultarse para seleccionar los verbos más adecuados según el propósito de cada objetivo de investigación.
     
     separador
     
@@ -416,7 +416,7 @@
                 img(src="@/assets/curso/tema2/31.png")
             .col-lg-6.order-lg-1
               h5 Explicativo
-              p Pretende identificar las causas de los fenómenos y establecer relaciones de causalidad. Utiliza métodos rigurosos, diseños experimentales o correlacionales, y pruebas de hipótesis.
+              p Pretende identificar las causas de los fenómenos y establecer relaciones de causalidad. Utiliza métodos rigurosos, diseños experimentales o correlacionales y pruebas de hipótesis.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
@@ -456,7 +456,7 @@
           div(titulo="Teórico")
             p.ms-5 Utiliza el razonamiento lógico para interpretar fenómenos, analizar conceptos y construir modelos explicativos o teorías. Es clave en investigaciones conceptuales.
           div(titulo="Estadístico")
-            p.ms-5 Se enfoca en el análisis cuantitativo de datos. Permite seleccionar muestras, procesar información y realizar inferencias válidas a partir de datos numéricos.Describe el enfoque, método, técnicas, instrumentos, población, muestra y procedimientos utilizados.
+            p.ms-5 Se enfoca en el análisis cuantitativo de datos. Permite seleccionar muestras, procesar información y realizar inferencias válidas a partir de datos numéricos. Describe el enfoque, método, técnicas, instrumentos, población, muestra y procedimientos utilizados.
           div(titulo="Empírico")
             p.ms-5 Basado en la experiencia directa del investigador. Implica observación, entrevistas, encuestas, y registro de datos sensoriales o culturales para conocer la realidad.
     
@@ -517,7 +517,7 @@
         h5.bg-color-15.p-3.text-center.mb-0 Hipótesis alternativa (H₁)
         p.mb-0.bg-color-1.p-3.pst Sostiene que sí existe una relación significativa.
 
-    p.mb-5 Un ejemplo basado en la pregunta de investigación mencionada anteriormente seria:
+    p.mb-5 Un ejemplo basado en la pregunta de investigación mencionada anteriormente sería:
 
     .bg-color-10.tarjeta.mb-5
       .px-4.px-md-5.py-4
@@ -632,37 +632,37 @@
                 td Cuantitativo
                 td Permiten medir variables numéricamente y aplicar análisis estadísticos.
                 td 
-                  | • Encuestas estructuradas 
+                  | • Encuestas estructuradas. 
                   br
-                  | • Cuestionarios cerrados 
+                  | • Cuestionarios cerrados. 
                   br
-                  | • Pruebas objetivas 
+                  | • Pruebas objetivas. 
                   br
-                  | • Observaciones con listas de cotejo
+                  | • Observaciones con listas de cotejo.
               tr
                 td Cualitativo
                 td Se orientan a comprender significados, percepciones y contextos.
                 td 
-                  | • Entrevistas semiestructuradas o abiertas 
+                  | • Entrevistas semiestructuradas o abiertas. 
                   br
-                  | • Observación participante 
+                  | • Observación participante. 
                   br
-                  | • Historias de vida 
+                  | • Historias de vida. 
                   br
-                  | • Diarios de campo 
+                  | • Diarios de campo. 
                   br
-                  | • Conversatorios 
+                  | • Conversatorios. 
                   br
-                  | • Talleres colaborativos
+                  | • Talleres colaborativos.
               tr
                 td Mixto
                 td Integra estrategias de ambos enfoques, enriqueciendo la comprensión del fenómeno.
                 td 
-                  | • Combinación de encuestas y entrevistas 
+                  | • Combinación de encuestas y entrevistas. 
                   br
-                  | • Registros observacionales múltiples 
+                  | • Registros observacionales múltiples. 
                   br
-                  | • Formularios abiertos y cerrados
+                  | • Formularios abiertos y cerrados.
 
           
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -679,19 +679,19 @@
             div.bg-color-white.box-shadow.px-4.py-5.h-100.tarjeta
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/41.svg" alt="" style="width: 90px")
               h5.text-center Nivel de investigación
-              p.mb-0.text-center Exploratorio, descriptivo, analítico, explicativo, interpretativo, argumentativo
+              p.mb-0.text-center Exploratorio, descriptivo, analítico, explicativo, interpretativo, argumentativo.
         
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100.tarjeta
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/42.svg" alt="" style="width: 90px")
               h5.text-center Método utilizado
-              p.mb-0.text-center Científico, experimental, correlacional, estadístico, etnográfico, hermenéutico, fenomenológico, histórico, IAP
+              p.mb-0.text-center Científico, experimental, correlacional, estadístico, etnográfico, hermenéutico, fenomenológico, histórico, IAP.
         
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100.tarjeta
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/43.svg" alt="" style="width: 90px")
               h5.text-center Tipo de análisis
-              p.mb-0.text-center Cuantitativo (medición y estadística), cualitativo (interpretación), mixto (combinación)
+              p.mb-0.text-center Cuantitativo (medición y estadística), cualitativo (interpretación), mixto (combinación).
         p.mb-5 Como indica Flick (2015), la calidad de los datos no depende únicamente del tipo de técnica elegida, sino del grado de coherencia con el diseño metodológico general y del rigor con el que se apliquen (p. 62).
     
     separador

@@ -26,7 +26,7 @@
         .col-lg-auto.order-2
           img(src="@/assets/curso/tema3/2.png", style="max-width: 210px").mx-auto
         .col-lg.order-1.p-5.mb-3.mb-lg-0
-          p.mb-0 En este sentido, se clasifican en primarias y secundarias, según su origen, nivel de procesamiento y tipo de información que contienen. Conocer sus características facilitas al investigador seleccionar los materiales adecuados para su proyecto.
+          p.mb-0 En este sentido, se clasifican en primarias y secundarias, según su origen, nivel de procesamiento y tipo de información que contienen. Conocer sus características facilita al investigador seleccionar los materiales adecuados para su proyecto.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -82,19 +82,19 @@
                     p.mb-0 Libros académicos que interpretan teorías o resultados.
                   li.mb-2.d-flex
                     i.fas.fa-circle.fa-xs.bg-color-6
-                    p.mb-0 Críticas literarias o artísticas
+                    p.mb-0 Críticas literarias o artísticas.
                   li.mb-2.d-flex
                     i.fas.fa-circle.fa-xs.bg-color-6
-                    p.mb-0 Artículos de revisión en revistas científicas
+                    p.mb-0 Artículos de revisión en revistas científicas.
                   li.mb-2.d-flex
                     i.fas.fa-circle.fa-xs.bg-color-6
-                    p.mb-0 Enciclopedias y diccionarios especializados
+                    p.mb-0 Enciclopedias y diccionarios especializados.
                   li.mb-2.d-flex
                     i.fas.fa-circle.fa-xs.bg-color-6
-                    p.mb-0 Bibliografías comentadas
+                    p.mb-0 Bibliografías comentadas.
                   li.mb-2.d-flex
                     i.fas.fa-circle.fa-xs.bg-color-6
-                    p.mb-0 Documentales que analizan hechos históricos
+                    p.mb-0 Documentales que analizan hechos históricos.
     
     .titulo-con-imagen__fondo_2(data-aos="fade-right").mb-5
       h3.mb-0 Características de las fuentes secundarias
@@ -145,11 +145,11 @@
               .bg-color-8.tarjeta.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/8.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Delimitar el tema
-                p.text-center Defi5ir con claridad el problema de investigación y los conceptos clave.
+                p.text-center Definir con claridad el problema de investigación y los conceptos clave.
               .bg-color-8.tarjeta.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/9.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Seleccionar palabras clave
-                p.text-center Iden5ificar términos asociados, sinónimos y descriptores temáticos.
+                p.text-center Identificar términos asociados, sinónimos y descriptores temáticos.
               .bg-color-8.tarjeta.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-5 Elegir fuentes confiables 
@@ -224,7 +224,7 @@
               figure
                 img(src="@/assets/curso/tema3/17.png")
             .col-lg-6.order-lg-1
-              h5 Google Académico (Google Scholar)
+              h5 Google Académico (Google <i>scholar</i>)
               p Buscador especializado en artículos científicos, tesis, libros y patentes. Es útil para identificar investigaciones recientes y consultar citaciones académicas.
     
           .row.align-items-center.p-4.p-md-5
@@ -232,7 +232,7 @@
               figure
                 img(src="@/assets/curso/tema3/18.png")
             .col-lg-6.order-lg-1
-              h5 Redalyc, Scielo, DOAJ
+              h5 <i>Redalyc, Scielo, DOAJ</i>
               p Plataformas de acceso abierto que ofrecen artículos académicos en español y otras lenguas, abarcando diversas áreas del conocimiento.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
