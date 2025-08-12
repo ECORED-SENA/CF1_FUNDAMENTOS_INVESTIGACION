@@ -35,24 +35,12 @@
       
     p.mb-5 A continuación, se presenta un pódcast  que explora en profundidad las características y el valor de las fuentes primarias de información, destacando su papel en la producción de conocimiento original dentro del ámbito académico.
 
-    .row.mb-5
-      .col-lg-5.mb-3.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in")
-      .col-lg-7.order-lg-1
-        .bg-color-5
-          .p-4
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema3/4.svg", data-aos="zoom-in")
-              .col-lg-7
-                p(data-aos="fade-left").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
-                TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                  texto="Fuentes primarias"
-                  tiempo
-                  :audio="require('../assets/curso/podcast/podcast1.mp3')"
-                )
+     figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QmvVYEp9Aus?si=YX4uDtPzgEx1ICnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+   
+
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
