@@ -17,7 +17,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Este componente formativo tiene como propósito fortalecer en el aprendiz habilidades investigativas que le permitan estructurar proyectos orientados a resolver necesidades concretas. A partir de métodos sistemáticos, se busca desarrollar capacidades argumentativas, interpretativas y propositivas, esenciales para generar conocimiento aplicable en su entorno.
     
-    .bg-color-1.mb-5.tarjeta
+    .bg-color-1.tarjeta
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto.mb-3.mb-lg-0

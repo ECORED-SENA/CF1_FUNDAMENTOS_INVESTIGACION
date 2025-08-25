@@ -12,7 +12,7 @@
     .row.mb-5
       .col-lg-3.order-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in", style="width: 350px").m-auto
       .col-lg-9.order-1.mb-3.mb-lg-0
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -29,10 +29,10 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto La investigación formativa como herramienta de desarrollo
 
-    .row.mb-5
+    .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in", style="width: 350px").m-auto
       .col-lg-8
         p(data-aos="fade-left") En este escenario, el proyecto de investigación formativa se presenta como una estrategia pedagógica de alto valor, ya que permite vincular los saberes académicos con los retos del mundo real. Al desarrollar un proyecto investigativo, los aprendices no solo aplican conocimientos técnicos, sino que también experimentan un proceso estructurado de pensamiento, reflexión y acción. La búsqueda sistemática de información, el planteamiento de problemas, el diseño metodológico y la formulación de conclusiones basadas en evidencias, forman parte de una experiencia educativa que fortalece la autonomía, la creatividad y la responsabilidad del aprendiz frente a su entorno.
     
@@ -57,11 +57,10 @@
     
     p.mb-5 En particular, la competencia “orientar investigación formativa según referentes técnicos” permite que los aprendices adquieran herramientas metodológicas para estructurar y ejecutar proyectos coherentes con las necesidades de su entorno. Esta competencia no solo refuerza la formación por proyectos, sino que también estimula el pensamiento científico, la toma de decisiones informada y la generación de soluciones con impacto en el contexto local y global.
 
- 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in", style="width: 390px").m-auto
       .col-lg-6
         .bg-color-3.p-5(data-aos="fade-left")
           p.mb-0 Desde esta mirada, investigar no es solo un requisito académico, sino una forma de aprender haciendo, de construir conocimiento desde la práctica, y de contribuir de forma significativa al desarrollo del país.

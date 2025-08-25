@@ -7,7 +7,7 @@
         span 3
       h1 Fuentes de información
     
-    .bloque-texto-g.color-primario.bg-color-8.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.bg-color-8.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )(data-aos="zoom-in")
@@ -39,16 +39,12 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/QmvVYEp9Aus?si=YX4uDtPzgEx1ICnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-   
-
-
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Fuentes secundarias
       
     p.mb-5 Las fuentes secundarias son aquellas que han sido elaboradas a partir del análisis, interpretación o síntesis de fuentes primarias. Su función es ofrecer un enfoque crítico, comparativo o contextual sobre la información original, facilitando su comprensión e integración en el marco teórico.
-
 
     .titulo-con-imagen__fondo_2(data-aos="fade-right").mb-5
       h3.mb-0 Ejemplos de fuentes secundarias
@@ -128,7 +124,7 @@
     .bg-full-width.bg-fondo-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.mb-5.align-items-center
-          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+          .col-lg-8.mb-5.mb-lg-0.order-lg-2
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-8.tarjeta.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema3/8.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -153,9 +149,7 @@
     
           .col-lg-3.order-lg-1
             figure
-              img(src='@/assets/curso/tema3/7.png', alt='')
-
-
+              img(src='@/assets/curso/tema3/7.png', alt='', style="max-width: 340px").m-auto
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -164,7 +158,7 @@
       
     p.mb-5 El SENA cuenta con una Biblioteca Virtual que ofrece acceso a múltiples recursos de alta calidad para apoyar la investigación en todas las áreas del conocimiento:
 
-    TabsC.color-primario(data-aos="zoom-in")
+    TabsC.color-primario.mb-5(data-aos="zoom-in")
       .p-3.p-md-4(titulo="Catálogo bibliográfico")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
@@ -173,7 +167,7 @@
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/13.png', alt='')
       .p-3.p-md-4(titulo="Bases de datos")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
@@ -182,7 +176,7 @@
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/14.png', alt='')
       .p-3.p-md-4(titulo="Colección SENA / Repositorio institucional")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
@@ -191,7 +185,7 @@
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/15.png', alt='')
       .p-3.p-md-4(titulo="Portal de revistas SENA")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.order-2
@@ -200,7 +194,7 @@
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema3/16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/16.png', alt='')
 
     p.mb-5 Los otros recursos recomendados son: 
 
@@ -210,7 +204,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema3/17.png")
+                img(src="@/assets/curso/tema3/17.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Google Académico (Google <i>scholar</i>)
               p Buscador especializado en artículos científicos, tesis, libros y patentes. Es útil para identificar investigaciones recientes y consultar citaciones académicas.
@@ -218,19 +212,19 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema3/18.png")
+                img(src="@/assets/curso/tema3/18.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 <i>Redalyc, Scielo, DOAJ</i>
               p Plataformas de acceso abierto que ofrecen artículos académicos en español y otras lenguas, abarcando diversas áreas del conocimiento.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema3/19.png")
+                img(src="@/assets/curso/tema3/19.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Repositorios universitarios
               p Espacios digitales ofrecidos por universidades públicas y privadas donde se puede acceder libremente a investigaciones, tesis y publicaciones académicas.
     
-    .bg-color-9.mb-5.tarjeta
+    .bg-color-9.tarjeta
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
@@ -255,9 +249,9 @@
     p.mb-5 Como indican Hernández et al. (2022), “el informe de investigación debe reflejar la lógica interna del estudio, demostrar su coherencia metodológica y ofrecer evidencia clara del cumplimiento de los objetivos” (p. 285). La estructura básica del informe de investigación: 
 
     .row.mb-3
-      .col-lg-3.mb-3.mb-lg-0.order-lg-2
+      .col-lg-3.mb-5.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema3/22.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/22.png", data-aos="zoom-in", style="max-width: 350px").m-auto
       .col-lg-9.order-lg-1
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
           div(titulo="Título")
@@ -270,9 +264,9 @@
             p.ms-5 Presenta los conceptos, teorías y antecedentes relevantes que sustentan el estudio.
     
     .row.mb-3
-      .col-lg-3.mb-3.mb-lg-0
+      .col-lg-3.mb-5.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/23.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/23.png", data-aos="zoom-in", style="max-width: 350px").m-auto
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
           div(titulo="Justificación")
@@ -284,10 +278,10 @@
           div(titulo="Metodología")
             p.ms-5 Describe el enfoque, método, técnicas, instrumentos, población, muestra y procedimientos utilizados.
     
-    .row.mb-3
-      .col-lg-3.mb-3.mb-lg-0.order-lg-2
+    .row
+      .col-lg-3.mb-5.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema3/24.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/24.png", data-aos="zoom-in", style="max-width: 350px").m-auto
       .col-lg-9.order-lg-1
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
           div(titulo="Resultados")
@@ -297,9 +291,9 @@
           div(titulo="Conclusiones")
             p.ms-5 Resume los hallazgos más importantes y plantea aportes, recomendaciones o futuras líneas de investigación.
           div(titulo="Referencias bibliográficas")
-            p.ms-5 Listado de las fuentes utilizadas, organizadas según las normas APA (7.ª ed.).
+            p.ms-5 Listado de las fuentes utilizadas, organizadas según las normas APA.
     
-    .bg-color-9.mb-5.tarjeta
+    .bg-color-9.tarjeta
       .px-4.px-md-5.py-4
         p.mb-0 El informe de investigación no marca el final del proceso, sino el inicio de una nueva etapa: con base en los hallazgos obtenidos, puede surgir una nueva pregunta problematizadora que permita profundizar en el tema abordado o explorar nuevas líneas de investigación. Esta continuidad refuerza el carácter cíclico y dinámico del conocimiento científico.
     

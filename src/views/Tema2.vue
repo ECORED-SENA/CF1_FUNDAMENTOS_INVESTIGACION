@@ -20,13 +20,13 @@
     
     p.mb-5 La calidad y pertinencia de un proyecto de investigación dependen en gran medida de su planeación y del seguimiento de una serie de etapas definidas, cada una con acciones específicas que garantizan el desarrollo ordenado del proceso investigativo. A continuación, se presentan las etapas del proyecto de investigación y las acciones que las componen:
 
-    .bg-full-width.bg-fondo-slider.mb-5.tarjeta
+    .bg-full-width.bg-fondo-slider.tarjeta
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white.tarjeta.p-4
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/2.png")
+                img(src="@/assets/curso/tema2/2.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Preparación de la investigación
               ul.lista-ul--color.mb-0
@@ -47,21 +47,21 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/3.png")
+                img(src="@/assets/curso/tema2/3.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Ejecución de la investigación
               p Aplicación de los métodos seleccionados para la recolección de datos (entrevistas, encuestas, observaciones, experimentos, entre otros). Esta etapa busca generar evidencias que respondan a la pregunta de investigación.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/4.png")
+                img(src="@/assets/curso/tema2/4.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Procesamiento de la información
               p Análisis de los datos obtenidos, los cuales pueden ser cuantificados, calificados e interpretados. Esta etapa permite identificar patrones, relaciones o conclusiones relevantes para el problema abordado.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/5.png")
+                img(src="@/assets/curso/tema2/5.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Redacción de informes
               p Sistematización del proceso y los hallazgos en un documento final. El informe debe ser claro, coherente, conciso y contener las conclusiones y recomendaciones derivadas del estudio.
@@ -74,17 +74,17 @@
     p.mb-5 La idea de investigación nace de una inquietud intelectual, de una experiencia significativa o de una necesidad del entorno que demanda una solución. Para Hernández, Fernández y Baptista (2014), la idea de investigación es <b>“la primera aproximación a la realidad que se pretende investigar; puede surgir de fuentes diversas como la experiencia, la observación de hechos concretos o la revisión bibliográfica”</b> (p. 28). En este sentido, la idea no parte del vacío, sino de una intención por comprender, transformar o explicar una situación.
 
     .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-5.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in", style="max-width: 400px").m-auto
       .col-lg-8
         .bg-color-4.tarjeta.p-4.mb-5(data-aos="fade-left")
           p.mb-0 Una característica esencial de los temas e ideas en la investigación formativa es que deben guardar pertinencia con el contexto socioproductivo, permitiendo generar conocimiento aplicable a la solución de problemáticas concretas. La investigación aplicada, común en la formación técnica y tecnológica, se orienta hacia la utilización del conocimiento científico para resolver problemas prácticos en contextos específicos.
 
-        p(data-aos="fade-left") Además, es importante diferenciar entre el tema entendido como un campo amplio de interés y la idea que representa una focalización del tema hacia un problema abordable mediante investigación. El tema agrupa aspectos relacionados con una realidad, mientras que la idea organiza y delimita esos aspectos con base en una necesidad investigativa.
+        p(data-aos="fade-left").mb-0 Además, es importante diferenciar entre el tema entendido como un campo amplio de interés y la idea que representa una focalización del tema hacia un problema abordable mediante investigación. El tema agrupa aspectos relacionados con una realidad, mientras que la idea organiza y delimita esos aspectos con base en una necesidad investigativa.
     
         
-    .bg-color-9.mb-5.tarjeta
+    .bg-color-9.tarjeta
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
@@ -105,7 +105,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/8.png")
+                img(src="@/assets/curso/tema2/8.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Cualitativo
               p Se orienta a comprender significados, percepciones, experiencias y construcciones sociales que dan forma a la realidad. Analiza los fenómenos en su contexto natural, con énfasis en la perspectiva de los participantes y sin intención de generalizar estadísticamente, sino de alcanzar una comprensión profunda y contextualizada (Flick, 2015, p. 9).
@@ -113,19 +113,19 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/9.png")
+                img(src="@/assets/curso/tema2/9.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Cuantitativo
               p Se basa en la medición objetiva de variables y en la aplicación de procedimientos estandarizados para recolectar y analizar datos. Su propósito es probar hipótesis, establecer patrones de comportamiento y alcanzar resultados replicables que permitan formular generalizaciones con base en la evidencia empírica (Hernández, Fernández y Baptista, 2014, p. 6).
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/10.png")
+                img(src="@/assets/curso/tema2/10.png", style="width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Mixto
               p Integra elementos de los enfoques cualitativo y cuantitativo en un mismo estudio, con el fin de lograr una visión más completa del fenómeno investigado. Esta combinación permite abordar la complejidad de los problemas desde diferentes ángulos, aprovechando tanto el rigor numérico como la riqueza interpretativa (Creswell y Plano Clark, 2018, p. 45).
 
-    p.mb-5 La elección del enfoque debe responder al tipo de conocimiento que se desea construir. Un problema interpretativo exige una perspectiva cualitativa, mientras que uno que requiere medición demanda un enfoque cuantitativo. En investigaciones complejas, el diseño mixto ofrece ventajas al integrar distintas formas de evidencia.
+    p.mb-0 La elección del enfoque debe responder al tipo de conocimiento que se desea construir. Un problema interpretativo exige una perspectiva cualitativa, mientras que uno que requiere medición demanda un enfoque cuantitativo. En investigaciones complejas, el diseño mixto ofrece ventajas al integrar distintas formas de evidencia.
 
     separador
     
@@ -140,10 +140,10 @@
 
     p.mb-5 A continuación, se expone un ejemplo que permite comprender cómo se estructura una pregunta de investigación clara, contextualizada y metodológicamente viable.
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.mb-3.mb-lg-0
+    .row.justify-content-center.align-items-center
+      .col-lg-5.mb-5.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/11.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/11.png", data-aos="zoom-in", style="max-width: 450px").m-auto
       .col-lg-7
         .bg-color-3.p-4(data-aos="fade-left")
           h5 Ejemplo:
@@ -205,7 +205,6 @@
             h4 Objeto de estudio
             p Es el núcleo del objetivo. Se refiere al fenómeno, situación, proceso, población o variable que se va a investigar. Debe formularse con precisión para mantener el foco del estudio y garantizar su abordaje metodológico. 
             p <b>Ejemplos</b>: causas de deserción escolar, impacto del cambio climático, percepción sobre la salud mental.
-
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
@@ -216,7 +215,6 @@
             h4 Contexto o condición
             p Delimita las circunstancias específicas del estudio: lugar, periodo, grupo poblacional o situación determinada. Aporta concreción al objetivo, evita generalidades y facilita su ejecución. 
             p <b>Ejemplos</b>: instituciones públicas de Soacha en 2024; jóvenes entre 15 y 18 años en colegios rurales.
-
         
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
@@ -228,11 +226,9 @@
             p Explica el propósito que justifica el análisis. Es lo que se busca lograr con los resultados obtenidos. Permite orientar las acciones derivadas del estudio y vincular los hallazgos con una aplicación práctica o teórica.
             p <b>Ejemplos</b>: con el fin de diseñar estrategias de mejora institucional, con el fin de proponer acciones de intervención comunitaria.
 
-        
           .col-md-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/16.png', alt='Texto que describa la imagen')
-
 
     .bg-color-1.mb-5.tarjeta
       .px-4.px-md-5.py-4
@@ -242,9 +238,6 @@
     p.mb-5 Ahora es momento de descomponer este objetivo para entender mejor cada uno de sus componentes y cómo contribuyen a una formulación clara y coherente:
 
     .tarjeta--container.row
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-10.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -255,9 +248,6 @@
         
         p <b>Analizar</b>: implica examinar de forma detallada los factores relacionados con la deserción escolar. Es un verbo adecuado para estudios analíticos o explicativos.
 
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-9.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -268,9 +258,6 @@
         
         p <b>Los factores que inciden en la deserción escolar de estudiantes entre 12 y 16 años</b>: constituye el fenómeno central de la investigación, claramente delimitado.
     .tarjeta--container.row.mb-5
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-9.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -281,9 +268,6 @@
         
         p <b>Instituciones rurales del municipio de Riosucio</b>: especifica el entorno geográfico e institucional del estudio, lo que permite contextualizar los resultados.
 
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-10.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -324,14 +308,14 @@
       h3.mb-0 Ejemplo aplicado
 
     .row.mb-5.align-items-center
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-5.mb-lg-0
         .bg-color-11.tarjeta.p-3.h-100(data-aos="fade-left")
           figure.mb-3
             img(src="@/assets/curso/tema2/23.svg", style="max-width: 50px", data-aos="zoom-in")
           p(data-aos="fade-left") Caracterizar las condiciones socioeconómicas de estudiantes desertores en zonas rurales de Riosucio, con base en registros académicos, para orientar estrategias educativas y sociales.
-      .col-lg-3.mb-3.mb-lg-0
+      .col-lg-3.mb-5.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/22.png" data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/22.png" data-aos="zoom-in", style="max-width: 400px").m-auto
       .col-lg-5.mb-3.mb-lg-0(data-aos="fade-left")
         ul.lista-ul--color.mb-0
           li.mb-2.d-flex
@@ -349,14 +333,14 @@
     
     p.mb-5 Este objetivo específico se deriva directamente del objetivo general y permite profundizar en una dimensión concreta del fenómeno investigado. Formular correctamente los objetivos específicos garantiza una ruta de trabajo clara, facilita la ejecución del proyecto y permite evaluar con mayor precisión los logros alcanzados.
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center
       .col-lg-3.mb-3.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema2/24.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/24.svg", data-aos="zoom-in", style="max-width: 300px").m-auto
       .col-lg-9.order-lg-1
         .bg-color-3.px-4.py-5(data-aos="fade-left")
           p.mb-0 Para redactar objetivos claros, coherentes y adecuados al nivel del estudio, es recomendable apoyarse en herramientas que orienten el uso preciso de los verbos. En este sentido, la taxonomía de Bloom resulta especialmente útil, ya que clasifica los niveles del pensamiento cognitivo, desde los más básicos hasta los más complejos, y sugiere verbos alineados con cada uno. En el material complementario se encuentra disponible esta taxonomía, la cual puede consultarse para seleccionar los verbos más adecuados según el propósito de cada objetivo de investigación.
-    
+
     separador
     
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -367,7 +351,7 @@
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/25.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/25.png", data-aos="zoom-in", style="max-width: 440px").m-auto
       .col-lg-7(data-aos="fade-left")
         .row.align-items-center.mb-3
           .col-lg-auto
@@ -383,7 +367,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/27.png")
+                img(src="@/assets/curso/tema2/27.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Exploratorio
               p Permite acercarse por primera vez a un fenómeno poco estudiado. Involucra acciones como rastrear antecedentes, formular preguntas iniciales, observar, comparar e indagar. Su finalidad es identificar tendencias, factores clave o nuevas preguntas.
@@ -391,21 +375,21 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/28.png")
+                img(src="@/assets/curso/tema2/28.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Descriptivo
               p Busca detallar cómo es un fenómeno en particular. Recolecta y organiza información para describir características, comportamientos o condiciones de un hecho. Utiliza encuestas, observación sistemática y análisis de registros.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/29.png")
+                img(src="@/assets/curso/tema2/29.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Interpretativo
               p Requiere la comprensión de significados, creencias o percepciones asociadas a un fenómeno. Implica habilidades analíticas para descubrir cómo las personas o grupos entienden su realidad. Es común en estudios cualitativos.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/30.png")
+                img(src="@/assets/curso/tema2/30.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Analítico
               p Va más allá de la descripción: examina causas, relaciones y componentes del fenómeno para estructurar una comprensión más profunda. Se apoya en marcos teóricos y categorizaciones.
@@ -413,19 +397,19 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/31.png")
+                img(src="@/assets/curso/tema2/31.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Explicativo
               p Pretende identificar las causas de los fenómenos y establecer relaciones de causalidad. Utiliza métodos rigurosos, diseños experimentales o correlacionales y pruebas de hipótesis.
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.mb-3.mb-lg-0.order-lg-2
               figure
-                img(src="@/assets/curso/tema2/32.png")
+                img(src="@/assets/curso/tema2/32.png", style="max-width: 430px").m-auto
             .col-lg-6.order-lg-1
               h5 Argumentativo
               p Contrasta hipótesis, construye razonamientos fundamentados en la teoría y demuestra relaciones entre variables o ideas. Es característico de investigaciones con enfoque crítico o filosófico.
     
-    p.mb-5 Como señala Hernández Sampieri (2014), “la elección del nivel de investigación se basa en los propósitos del estudio, el tipo de pregunta planteada y el conocimiento existente sobre el tema” (p. 61).
+    p.mb-0 Como señala Hernández Sampieri (2014), “la elección del nivel de investigación se basa en los propósitos del estudio, el tipo de pregunta planteada y el conocimiento existente sobre el tema” (p. 61).
 
     separador
     
@@ -444,9 +428,9 @@
     p.mb-5 Los <b>métodos de investigación</b> articulan la teoría con la práctica, y permiten orientar la recolección, el análisis y la interpretación de los datos. Como señalan Hernández et al. (2014), “el método es la vía para recolectar, analizar y presentar información que responda a una pregunta de investigación y genere conocimiento útil” (p. 97). A continuación, se presenta una tabla con los métodos más utilizados en investigación y sus principales características:
 
     .row.mb-3
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-5.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/34.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/34.png", data-aos="zoom-in", style="max-width: 350px").m-auto
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
           div(titulo="Científico")
@@ -461,11 +445,11 @@
             p.ms-5 Basado en la experiencia directa del investigador. Implica observación, entrevistas, encuestas, y registro de datos sensoriales o culturales para conocer la realidad.
     
     .row.mb-3
-      .col-lg-4.mb-3.mb-lg-0.order-lg-2
+      .col-lg-4.mb-5.mb-lg-0.order-lg-2
         figure
-          img(src="@/assets/curso/tema2/35.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/35.png", data-aos="zoom-in", style="max-width: 350px").m-auto
       .col-lg-8.order-lg-1
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-11")
           div(titulo="Etnográfico")
             p.ms-5 Busca comprender fenómenos sociales desde dentro. El investigador se inserta en el contexto y realiza observación participante para interpretar significados culturales.
           div(titulo="Hermenéutico")
@@ -477,7 +461,7 @@
           div(titulo="Investigación-Acción Participativa (IAP)")
             p.ms-5 Involucra activamente a los participantes en el proceso investigativo. Busca transformar la realidad desde la acción colectiva, con el investigador como facilitador del cambio.
     
-    p.mb-5 La elección del método debe ser coherente con el enfoque, el tipo de problema, los objetivos y la naturaleza de los datos que se esperan obtener. No todos los métodos aplican a todos los estudios, y muchas veces es necesario combinar varios para lograr una comprensión más amplia del fenómeno.
+    p.mb-0 La elección del método debe ser coherente con el enfoque, el tipo de problema, los objetivos y la naturaleza de los datos que se esperan obtener. No todos los métodos aplican a todos los estudios, y muchas veces es necesario combinar varios para lograr una comprensión más amplia del fenómeno.
     
     separador
     
@@ -500,7 +484,7 @@
     
     p.mb-5 Existen diferentes tipos de hipótesis que se utilizan según el enfoque y los objetivos del estudio. Cada una cumple una función específica dentro del proceso investigativo, ya sea describiendo, relacionando o explicando fenómenos. A continuación, se presentan los tipos más comunes de hipótesis que orientan el análisis de los datos y la toma de decisiones en la investigación:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-lg-2.mb-3.mb-lg-0
         h5.bg-color-15.p-3.text-center.mb-0 Hipótesis descriptiva
         p.mb-0.bg-color-1.p-4.pst Predice un dato o valor esperado.
@@ -527,7 +511,7 @@
           .col-lg
             p.mb-0 <b>Hipótesis</b>: la mayoría de los casos de deserción escolar en estudiantes entre 12 y 16 años en instituciones rurales del municipio de Riosucio se relacionan con dificultades económicas y falta de transporte escolar.
     
-    p.mb-5 Esta hipótesis podría verificarse mediante revisión de registros académicos, análisis estadístico y entrevistas con actores educativos del contexto rural.
+    p.mb-0 Esta hipótesis podría verificarse mediante revisión de registros académicos, análisis estadístico y entrevistas con actores educativos del contexto rural.
 
     separador
     
@@ -596,7 +580,7 @@
                     i.fas.fa-circle.fa-xs.bg-color-6
                     p.mb-0 Programas de apoyo institucional y comunitario a estudiantes en riesgo.
     
-    p.mb-5 Para su elaboración es fundamental consultar fuentes confiables y actualizadas, como artículos científicos, libros especializados, informes técnicos, bases de datos académicas y documentos institucionales. Un marco teórico bien estructurado permite al investigador sustentar sus decisiones, delimitar el alcance del estudio y orientar el análisis de los resultados.
+    p.mb-0 Para su elaboración es fundamental consultar fuentes confiables y actualizadas, como artículos científicos, libros especializados, informes técnicos, bases de datos académicas y documentos institucionales. Un marco teórico bien estructurado permite al investigador sustentar sus decisiones, delimitar el alcance del estudio y orientar el análisis de los resultados.
 
     separador
     
@@ -617,7 +601,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 1
+          h5 Tabla 1.
           span Técnicas e instrumentos según el enfoque
         
         .tabla-a.color-acento-botones.mb-5.tab 
@@ -631,39 +615,57 @@
               tr
                 td Cuantitativo
                 td Permiten medir variables numéricamente y aplicar análisis estadísticos.
-                td 
-                  | • Encuestas estructuradas. 
-                  br
-                  | • Cuestionarios cerrados. 
-                  br
-                  | • Pruebas objetivas. 
-                  br
-                  | • Observaciones con listas de cotejo.
+                td
+                  ul.lista-ul--color.mb-0
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Encuestas estructuradas.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Cuestionarios cerrados.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Pruebas objetivas.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Observaciones con listas de cotejo.
               tr
                 td Cualitativo
                 td Se orientan a comprender significados, percepciones y contextos.
-                td 
-                  | • Entrevistas semiestructuradas o abiertas. 
-                  br
-                  | • Observación participante. 
-                  br
-                  | • Historias de vida. 
-                  br
-                  | • Diarios de campo. 
-                  br
-                  | • Conversatorios. 
-                  br
-                  | • Talleres colaborativos.
+                td
+                  ul.lista-ul--color.mb-0
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Entrevistas semiestructuradas o abiertas.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Observación participante.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Historias de vida.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Diarios de campo.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Conversatorios.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Talleres colaborativos.
               tr
                 td Mixto
                 td Integra estrategias de ambos enfoques, enriqueciendo la comprensión del fenómeno.
-                td 
-                  | • Combinación de encuestas y entrevistas. 
-                  br
-                  | • Registros observacionales múltiples. 
-                  br
-                  | • Formularios abiertos y cerrados.
-
+                td
+                  ul.lista-ul--color.mb-0
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Combinación de encuestas y entrevistas.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Registros observacionales múltiples.
+                    li.mb-0.d-flex
+                      i.fas.fa-circle.fa-xs.bg-color-6
+                      p.mb-0 Formularios abiertos y cerrados.
           
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -692,7 +694,7 @@
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/43.svg" alt="" style="width: 90px")
               h5.text-center Tipo de análisis
               p.mb-0.text-center Cuantitativo (medición y estadística), cualitativo (interpretación), mixto (combinación).
-        p.mb-5 Como indica Flick (2015), la calidad de los datos no depende únicamente del tipo de técnica elegida, sino del grado de coherencia con el diseño metodológico general y del rigor con el que se apliquen (p. 62).
+        p.mb-0 Como indica Flick (2015), la calidad de los datos no depende únicamente del tipo de técnica elegida, sino del grado de coherencia con el diseño metodológico general y del rigor con el que se apliquen (p. 62).
     
     separador
     
@@ -739,7 +741,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bg-color-16.mb-5(data-aos="fade-up")
+        .bg-color-16(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-lg-auto.mb-3.mb-lg-0.order-lg-2
               figure
@@ -758,9 +760,6 @@
     p.mb-5 Existen dos tipos principales de fórmulas estadísticas para el cálculo del tamaño muestral, dependiendo del tipo de población:
 
     .tarjeta--container.row.mb-5
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-10.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -772,10 +771,6 @@
         p.mb-0 Se usa cuando la población total es conocida y delimitada.
         p <b>Consideraciones</b>: aplica corrección por tamaño.
 
-
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.bg-color-9.p-5
         .row.justify-content-center.mb-4
           .col-3
@@ -787,14 +782,42 @@
         p.mb-0 Se emplea cuando la población es muy grande o no se conoce con exactitud.
         p <b>Consideraciones</b>: no requiere corrección por población.
 
-    p.mb-5 El uso correcto de estas fórmulas depende de factores como el nivel de confianza, el margen de error permitido, la proporción esperada de respuestas y la variabilidad de los datos.
+    p.mb-5 A continuación, se presentan las fórmulas correspondientes para cada caso:
+
+    p.mb-3 #[b Población finita:] n = (Z² * p * q * N) / (e² * (N - 1) + Z² * p * q)
+
+    p.mb-5 #[b Población infinita:] n = (Z² * p * q) / e²
+
+    p.mb-4 El significado de cada símbolo es el siguiente:
+
+    ul.lista-ul--color.mb-4.ms-3
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 n: tamaño requerido del conjunto de casos a recolectar.
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 N: tamaño de la población (cuando es conocida y acotada).
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 Z: valor crítico del nivel de confianza (90 %: 1,645; 95 %: 1,96; 99 %: 2,576).
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 e: margen de error permitido (proporción; p. ej., 0,05 para 5 %).
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 p: proporción esperada del atributo de interés (si se desconoce, usar 0,5).
+      li.mb-0.d-flex
+        i.fas.fa-circle.fa-xs.bg-color-6
+        p.mb-0 q: 1 - p.
+
+    p.mb-0 El uso correcto de estas fórmulas depende de factores como el nivel de confianza, el margen de error permitido, la proporción esperada de respuestas y la variabilidad de los datos.
 
     separador
     
     #t_2_11.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.11 Conclusiones
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -838,10 +861,7 @@
                     i.fas.fa-circle.fa-xs.bg-color-17
                     p.mb-0 Posibles recomendaciones o implicaciones para futuras investigaciones.
 
-    p.mb-5 Además, es conveniente que las conclusiones evidencien cómo el proyecto contribuye a la comprensión o solución de la problemática abordada y abre nuevas rutas para la indagación o aplicación en contextos similares.
-
-
-
+    p.mb-0 Además, es conveniente que las conclusiones evidencien cómo el proyecto contribuye a la comprensión o solución de la problemática abordada y abre nuevas rutas para la indagación o aplicación en contextos similares.
 
 </template>
 

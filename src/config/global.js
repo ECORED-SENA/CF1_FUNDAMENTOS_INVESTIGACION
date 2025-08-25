@@ -323,6 +323,56 @@ export default {
       significado:
         'procedimientos específicos para obtener información relevante, como encuestas, entrevistas u observaciones.',
     },
+    {
+      termino: 'Alcance de investigación',
+      significado:
+        'delimitación del estudio en términos de cobertura temática, espacial, temporal o poblacional.',
+    },
+    {
+      termino: 'Diseño metodológico',
+      significado:
+        'planificación estructurada del enfoque, método, técnicas e instrumentos que se emplearán en la investigación.',
+    },
+    {
+      termino: 'Encuesta estructurada',
+      significado:
+        'instrumento con preguntas cerradas y predeterminadas, utilizado para recopilar datos cuantificables.',
+    },
+    {
+      termino: 'Idea de investigación',
+      significado:
+        'primera aproximación a una situación que se desea comprender, explicar o transformar, a partir de una experiencia, observación o necesidad.',
+    },
+    {
+      termino: 'Nivel analítico',
+      significado:
+        'investigación orientada a descomponer y examinar las relaciones internas de un fenómeno para entender su estructura o funcionamiento.',
+    },
+    {
+      termino: 'Nivel interpretativo',
+      significado:
+        'tipo de estudio que busca comprender los significados y percepciones de los participantes respecto a un fenómeno.',
+    },
+    {
+      termino: 'Observación participante',
+      significado:
+        'técnica cualitativa en la que el investigador se involucra activamente en el contexto para comprender el fenómeno desde dentro.',
+    },
+    {
+      termino: 'Problema de investigación',
+      significado:
+        'situación específica que requiere análisis y comprensión, y que da origen a la formulación de una pregunta investigativa.',
+    },
+    {
+      termino: 'Recolección de datos',
+      significado:
+        'proceso sistemático de obtención de información relevante para responder a los objetivos de una investigación.',
+    },
+    {
+      termino: 'Sistematización',
+      significado:
+        'proceso de organización, análisis e interpretación de la información obtenida durante la ejecución de un proyecto.',
+    },
   ],
   referencias: [
     {
